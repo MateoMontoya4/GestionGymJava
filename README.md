@@ -28,11 +28,9 @@ Abrir el archivo Conexion.java, ubicado en el paquete DAO.
 
 Configurar los datos de conexión según la instalación local de MySQL:
 
-Base de datos: schemas
-
-Usuario: root
-
 Contraseña: colocar la contraseña configurada en MySQL.
+
+private static final String PASSWORD = "Tucontraseña";
 
 Por ejemplo, si MySQL no tiene contraseña, dejar el campo de contraseña vacío ("").
 
