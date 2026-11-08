@@ -21,3 +21,19 @@ El sistema permite organizar la información y realizar operaciones relacionadas
 5. Esperar a que NetBeans cargue los archivos.
 6. Ejecutar el proyecto.
 
+## BASE DE DATOS
+Conexión con Java
+
+Abrir el archivo Conexion.java, ubicado en el paquete DAO.
+
+Configurar los datos de conexión según la instalación local de MySQL:
+
+Base de datos: schemas
+
+Usuario: root
+
+Contraseña: colocar la contraseña configurada en MySQL.
+
+Por ejemplo, si MySQL no tiene contraseña, dejar el campo de contraseña vacío ("").
+
+Importante: si aparece un error de conexión, comprobar que MySQL Server esté iniciado y que el usuario y la contraseña sean correctos.
